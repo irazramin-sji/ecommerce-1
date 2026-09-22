@@ -1,0 +1,20 @@
+export type Product = {
+  id: string;
+  name: string;
+  slug: string;
+  sku: string;
+  description?: string;
+  price: number;
+  stock: number;
+  category_id?: string;
+  material?: string;
+  shape?: string;
+  length?: string;
+  tip_size?: string;
+  images?: string[];
+  videos?: string[];
+  user_guides?: string[];
+  is_active?: boolean;
+  created_at?: string;
+  updated_at?: string;
+};
